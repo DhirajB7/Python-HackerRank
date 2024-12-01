@@ -1,0 +1,5 @@
+a = input()
+b = set(map(lambda x:int(x),input().split(" ")))
+n = input()
+m = set(map(lambda x:int(x),input().split(" ")))
+print(len(b | m))
